@@ -2,7 +2,7 @@
 import { computed  } from "vue";
 import { Show } from "../shared/types";
 
-// const props = defineProps<{ shows: Show[] }>();
+const props = defineProps<{ shows: Show[] }>();
 </script>
 
 <template>
@@ -67,7 +67,7 @@ import { Show } from "../shared/types";
       pattern="[0-9\s]{13,19}"
       autocomplete="cc-number"
       maxlength="19"
-      placeholder="#### #### #### ####"
+      placeholder="#### ####  ####"
       required
     />
     <label class="mt-2" for="security-code">Security Code</label>
@@ -94,10 +94,10 @@ import { Show } from "../shared/types";
       required
     />
 
-    <button type="button" class="bg-sky-500 my-4 mx-16 p-3 rounded">
+    <!-- <button type="button" class="bg-sky-500 my-4 mx-16 p-3 rounded">
       Or, use PayPal
       <i class="bi bi-paypal"></i>
-    </button>
+    </button> -->
   </div>
 </template>
 

@@ -4,8 +4,8 @@ import { Show } from "../shared/types";
 
 const props = defineProps<{ shows: Show[] }>();
 
-const TAX_RATE = 10.1;
-const SERVICE_FEE = 12;
+const Order_Fee = 8.0;
+const Service_Fee = 12;
 
 const showCart = computed(() => {
   return props.shows.filter((show) => show.count > 0);
@@ -22,11 +22,11 @@ const subTotal = computed(() => {
 });
 
 const tax = computed(() => {
-  return (subTotal.value * TAX_RATE) / 100;
+  return (subTotal.value * Order_Fee) / 100;
 });
 
 const total = computed(() => {
-  return subTotal.value + tax.value + SERVICE_FEE;
+  return subTotal.value + tax.value + Service_Fee;
 });
 </script>
 
@@ -50,26 +50,24 @@ const total = computed(() => {
         <ul>
           <li>
             <span>Service Fee</span>
-            <span class="float-right">$12.00</span>
+            <span class="float-right">Ksh 9.00</span>
           </li>
           <li>
-            <span>Tax ({{ TAX_RATE }}%)</span>
-            <span class="float-right">${{ tax.toFixed(2) }}</span>
+            <span>Tax ({{ Order_Fee }}%)</span>
+            <span class="float-right">Ksh{{ tax.toFixed(2) }}</span>
           </li>
         </ul>
       </div>
 
       <div class="mt-3 text-xl font-bold">
         <h3 class="grow inline">TOTAL</h3>
-        <span class="float-right">${{ total.toFixed(2) }}</span>
+        <span class="float-right">Ksh{{ total.toFixed(2) }}</span>
       </div>
 
       <div class="mt-3">
-        <h3 class="font-bold">Notes from Seller</h3>
+        <h3 class="font-bold">Note</h3>
         <p>
-          Proof of at least one dose of COVID-19 vaccination for ages 5 to 11
-          and guests ages 12 and up will be required to show proof of two
-          COVID-19 vaccine doses.
+          All sales are Final - No Refund
         </p>
       </div>
       <button type="submit" class="bg-indigo-800 mt-3 py-3 px-12 rounded-lg">

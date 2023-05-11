@@ -58,7 +58,7 @@ const totalCount = computed(() => {
   <header class="flex row">
     <nav class="flex-grow">
       <h1 class="text-xl inline" role="button">
-        <a href="/">Ticket Purchasing Demo</a>
+        <a href="/">Ticket Master</a>
       </h1>
     </nav>
     <div>
@@ -68,7 +68,7 @@ const totalCount = computed(() => {
   </header>
   <div class="mt-8">
     <h2 class="font-bold mb-2">
-      SHOWS <i class="bi bi-calendar4-event ml-1"></i>
+      Upcoming Shows <i class="bi bi-calendar4-event ml-1"></i>
     </h2>
     <ul class="grid grid-cols-1 md:grid-cols-2 gap-x-5 gap-y-3">
       <ShowListItem

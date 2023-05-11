@@ -29,11 +29,11 @@ const decrementCount = () => {
       <div class="text-center">${{ show.price.toFixed(2) }}</div>
       <div class="text-center">
         <button @click="decrementCount">
-          <i class="bi bi-dash-circle"></i>
+          <i class="bi bi-dash-square"></i>
         </button>
         {{ show.count }}
         <button @click="incrementCount">
-          <i class="bi bi-plus-circle"></i>
+          <i class="bi bi-plus-square"></i>
         </button>
       </div>
     </div>
