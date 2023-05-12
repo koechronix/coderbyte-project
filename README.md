@@ -47,12 +47,12 @@ npm run dev
 
 5. Open the app in your browser:
 
-[ click the link on that you its displayed on your terminal ]
+[ click the link, that is display on your terminal
+]
 
-## Deployment
+## Project Pictures 
+![Frontpage](./src/assets/frontpage.png)
 
-- Also the project is deployed on vercel and users can click onwards without following the procedure explainned above:
-- Link to the project[ ]
 
 ## Usage
 
