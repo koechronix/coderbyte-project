@@ -23,7 +23,7 @@ const decrementCount = () => {
           >({{ show.location }})</span
         >
       </h2>
-      <p class="text-gray-400">{{ show.subtitle }}</p>
+      <p class="text-green-400">{{ show.subtitle }}</p>
     </div>
     <div class="flex flex-col">
       <div class="text-center">${{ show.price.toFixed(2) }}</div>
