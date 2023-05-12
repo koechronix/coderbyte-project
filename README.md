@@ -45,5 +45,15 @@ npm run dev
 [ click the link on that you its displayed on your terminal ]
 
 ## Deployment
+
 - Also the project is deployed on vercel and users can click onwards without following the procedure explainned above:
 - Link to the project[ ]
+
+## Usage
+
+Once the coderbyte ticket purchase app is running , you can perform the following actions:
+
+- Browse the list of available upcoming shows.
+- Select the desired number of tickets and place an order.
+- See the final cost of ticket before checking out.
+- Enter the payment information (not yet integrated with credit/credit).
