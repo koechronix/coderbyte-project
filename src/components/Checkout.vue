@@ -32,7 +32,7 @@ const total = computed(() => {
 
 <template>
   <div class="p-3">
-    <h2 class="font-bold">CHECKOUT <i class="bi bi-cart2 text-xl ml-2"></i></h2>
+    <h2 class="font-bold">CHECKOUT <i class="bi bi-cart3"></i></h2>
     <div class="flex flex-col" v-if="hasItems">
       <div class="mt-3">
         <h3 class="text-xl font-bold">Tickets</h3>
