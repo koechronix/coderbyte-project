@@ -19,7 +19,7 @@ const decrementCount = () => {
     <div class="flex-grow">
       <h2 class="text-lg">
         {{ show.title
-        }}<span class="ml-2 text-sm text-indigo-300"
+        }}<span class="ml-2 text-sm text-red-300"
           >({{ show.location }})</span
         >
       </h2>
