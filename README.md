@@ -44,3 +44,6 @@ npm run dev
 
 [ click the link on that you its displayed on your terminal ]
 
+## Deployment
+- Also the project is deployed on vercel and users can click onwards without following the procedure explainned above:
+- Link to the project[ ]
