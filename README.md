@@ -60,3 +60,8 @@ Once the coderbyte ticket purchase app is running , you can perform the followin
 
  ## Contributing
 - Contribution to the corderbyte Ticket Purchase App are welcome. If you find any issues or have suggestions for improvements, plase open an issue or submit a pull request.
+
+## Future Plans
+- Initiate authentication: Users will be able to create accounts, log in and manage their profiles.
+- Initiate order history: Users willbe able to view their past orders and check ticket details.
+- Initiate payment: Users will be able to pay their tickets using Credit/Debit cards, M-Pesa, and Paypal for global use.
