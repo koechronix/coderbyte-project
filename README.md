@@ -52,6 +52,9 @@ npm run dev
 
 ## Project Pictures 
 ![Frontpage](./src/assets/frontpage.png)
+![Payment](./src/assets/payment.png)
+![Selected](./src/assets/selectedshow.png)
+![checkout](./src/assets/checkout.png)
 
 
 ## Usage
