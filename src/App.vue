@@ -57,7 +57,7 @@ const totalCount = computed(() => {
 <template>
   <header class="flex row">
     <nav class="flex-grow">
-      <h1 class="text-xl inline" role="button">
+      <h1 class="font-bold mb-1" role="button">
         <a href="/">Ticket Master</a>
       </h1>
     </nav>
