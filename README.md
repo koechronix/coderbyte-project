@@ -11,6 +11,11 @@
 - Payment Information: Users can enter their credentials of Credit/ Debit card just after placing the order.
 - Checkout information: Users can be able to see the final cost in (Ksh) before checking out or placing an order.
 
+## Tech Stack
+- Vue + Vite
+- TypeScript
+- TailwindCSS
+
 ## Installation 
 
 - To run Ticket Purchase App locally,follow these steps:
@@ -70,3 +75,10 @@ Once the coderbyte ticket purchase app is running , you can perform the followin
 The Coderbyte Ticket Purchase app is open source under the 
 [MIT](https://choosealicense.com/licenses/mit/)
 Feel free to mpdify and distribute the app as per the terms of the licence.
+
+## Contact
+For any questions or inquiries,please contact the project maintainer:
+
+- [![Connect on LinkedIn](https://img.shields.io/badge/--linkedin?label=LinkedIn&logo=LinkedIn&style=social)](https://www.linkedin.com/in/amos-koech-/)
+
+- [![Send me email](https://img.shields.io/badge/--gmail?label=Gmail&logo=Gmail&style=social)](mailto:koechronix@gmail.com)
