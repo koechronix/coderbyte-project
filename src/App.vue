@@ -68,7 +68,7 @@ const totalCount = computed(() => {
   </header>
   <div class="mt-8">
     <h2 class="font-bold mb-2">
-      Upcoming Shows <i class="bi bi-calendar4-event ml-1"></i>
+      Upcoming Shows <i class="bi bi-calendar2-plus-fill"></i>
     </h2>
     <ul class="grid grid-cols-1 md:grid-cols-2 gap-x-5 gap-y-3">
       <ShowListItem
