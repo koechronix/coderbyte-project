@@ -67,10 +67,10 @@ const total = computed(() => {
       <div class="mt-3">
         <h3 class="font-bold">Note</h3>
         <p>
-          All sales are Final - No Refund
+          *All sales are Final - No Refund
         </p>
       </div>
-      <button type="submit" class="bg-indigo-800 mt-3 py-3 px-12 rounded-lg">
+      <button type="submit" class="bg-green-800 mt-3 py-3 px-12 rounded-lg">
         Place Order
       </button>
     </div>
