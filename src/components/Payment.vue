@@ -95,7 +95,7 @@ const props = defineProps<{ shows: Show[] }>();
     />
 
     <button type="button" class="bg-green-500 my-4 mx-16 p-3 rounded">
-      Or, use PayPal
+      Or, Pay With PayPal
       <i class="bi bi-paypal"></i>
     </button>
   </div>
