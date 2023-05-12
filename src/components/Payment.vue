@@ -54,7 +54,7 @@ const props = defineProps<{ shows: Show[] }>();
       inputmode="text"
       autocomplete="cc-name"
       maxlength="19"
-      placeholder="John Doe"
+      placeholder="Enter Your card Name"
       required
     />
     <label class="mt-2" for="card-number">Card Number</label>
