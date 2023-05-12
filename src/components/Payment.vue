@@ -94,10 +94,10 @@ const props = defineProps<{ shows: Show[] }>();
       required
     />
 
-    <!-- <button type="button" class="bg-sky-500 my-4 mx-16 p-3 rounded">
+    <button type="button" class="bg-green-500 my-4 mx-16 p-3 rounded">
       Or, use PayPal
       <i class="bi bi-paypal"></i>
-    </button> -->
+    </button>
   </div>
 </template>
 
