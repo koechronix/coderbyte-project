@@ -65,3 +65,8 @@ Once the coderbyte ticket purchase app is running , you can perform the followin
 - Initiate authentication: Users will be able to create accounts, log in and manage their profiles.
 - Initiate order history: Users willbe able to view their past orders and check ticket details.
 - Initiate payment: Users will be able to pay their tickets using Credit/Debit cards, M-Pesa, and Paypal for global use.
+
+## Licence 
+The Coderbyte Ticket Purchase app is open source under the 
+[MIT](https://choosealicense.com/licenses/mit/)
+Feel free to mpdify and distribute the app as per the terms of the licence.
