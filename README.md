@@ -57,3 +57,6 @@ Once the coderbyte ticket purchase app is running , you can perform the followin
 - Select the desired number of tickets and place an order.
 - See the final cost of ticket before checking out.
 - Enter the payment information (not yet integrated with credit/credit).
+
+ ## Contributing
+- Contribution to the corderbyte Ticket Purchase App are welcome. If you find any issues or have suggestions for improvements, plase open an issue or submit a pull request.
