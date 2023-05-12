@@ -9,7 +9,7 @@ const props = defineProps<{ shows: Show[] }>();
   <div class="flex flex-col p-3">
     <fieldset></fieldset>
     <h2 class="font-bold">
-      PAYMENT <i class="bi bi-credit-card-2-front ml-1"></i>
+      PAYMENT <i class="bi bi-credit-card-2-back"></i>
     </h2>
     <h3 class="mt-1">Use Credit / Debit</h3>
     <fieldset>
