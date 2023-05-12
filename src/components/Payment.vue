@@ -11,7 +11,7 @@ const props = defineProps<{ shows: Show[] }>();
     <h2 class="font-bold">
       PAYMENT <i class="bi bi-credit-card-2-front ml-1"></i>
     </h2>
-    <h3 class="mt-1">Add Credit/Debit Card Information</h3>
+    <h3 class="mt-1">Use Credit / Debit</h3>
     <fieldset>
       <div>
         <input
