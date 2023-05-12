@@ -15,7 +15,7 @@ const decrementCount = () => {
 </script>
 
 <template>
-  <li class="flex flex-row bg-indigo-800 rounded-md p-2">
+  <li class="flex flex-row bg-stone-600 rounded-md p-2">
     <div class="flex-grow">
       <h2 class="text-lg">
         {{ show.title
