@@ -10,3 +10,37 @@
 - Quantity: Users can select their desired quantity(number of tickets) they wish to buy using [+]     button and also they can decrement the quantity(number of ticket) by using [-] on the user interface.
 - Payment Information: Users can enter their credentials of Credit/ Debit card just after placing the order.
 - Checkout information: Users can be able to see the final cost in (Ksh) before checking out or placing an order.
+
+## Installation 
+
+- To run Ticket Purchase App locally,follow these steps:
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/koechronix/coderbyte-project
+
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd coderbyte-project
+```
+
+3. Install dependecies using npm:
+
+```bash
+npm install
+```
+
+4. Start the development server:
+
+```bash
+npm run dev
+```
+
+5. Open the app in your browser:
+
+[ click the link on that you its displayed on your terminal ]
+
