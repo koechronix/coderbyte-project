@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, ref } from "vue";
+// import { computed, ref } from "vue";
 import { Show } from "../shared/types";
 import Checkout from "./Checkout.vue";
 import Payment from "./Payment.vue";
