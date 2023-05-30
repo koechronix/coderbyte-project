@@ -5,7 +5,7 @@ import { Show } from "../shared/types";
 const props = defineProps<{ shows: Show[] }>();
 
 const Order_Fee = 8.0;
-const Service_Fee = 12;
+const Service_Fee = 9;
 
 const showCart = computed(() => {
   return props.shows.filter((show) => show.count > 0);
@@ -70,7 +70,7 @@ const total = computed(() => {
           *All sales are Final - No Refund
         </p>
       </div>
-      <button type="submit" class="bg-green-800 mt-3 py-3 px-12 rounded-lg">
+      <button type="submit" class="-green-800bg mt-3 py-3 px-12 rounded-lg">
         Place Order
       </button>
     </div>

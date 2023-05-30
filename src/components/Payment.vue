@@ -1,8 +1,5 @@
 <script setup lang="ts">
-// import { computed  } from "vue";
-// import { Show } from "../shared/types";
 
-// const props = defineProps<{ shows: Show[] }>();
 </script>
 
 <template>

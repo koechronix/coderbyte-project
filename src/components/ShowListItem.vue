@@ -1,5 +1,4 @@
 <script setup lang="ts">
-// import { computed, ref } from "vue";
 import { Show } from "../shared/types";
 
 const props = defineProps<{ show: Show }>();
@@ -42,3 +41,5 @@ const decrementCount = () => {
 
 <style scoped>
 </style>
+
+
